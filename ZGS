@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TrendCart</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f5f5f5;
+}
+
+header{
+    background:#111;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+nav{
+    background:#222;
+    padding:10px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+}
+
+.hero{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.hero h1{
+    font-size:40px;
+}
+
+.btn{
+    background:#ff6600;
+    color:white;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:6px;
+}
+
+.products{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    padding:40px;
+}
+
+.card{
+    background:white;
+    width:250px;
+    border-radius:10px;
+    padding:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+    text-align:center;
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+}
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h2>TrendCart</h2>
+<p>Find the Best Deals Online</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Categories</a>
+<a href="#">Deals</a>
+<a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+<h1>Trending Products</h1>
+<p>Discover amazing products from trusted online stores.</p>
+
+<a class="btn" href="#">Shop Now</a>
+</section>
+
+<section class="products">
+
+<div class="card">
+<img src="https://via.placeholder.com/250" alt="">
+<h3>Running Shoes</h3>
+<p>⭐⭐⭐⭐☆</p>
+
+<a class="btn" href="#">Buy Now</a>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/250" alt="">
+<h3>Smart Watch</h3>
+<p>⭐⭐⭐⭐⭐</p>
+
+<a class="btn" href="#">Buy Now</a>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/250" alt="">
+<h3>Wireless Earbuds</h3>
+<p>⭐⭐⭐⭐☆</p>
+
+<a class="btn" href="#">Buy Now</a>
+</div>
+
+</section>
+
+<footer>
+© 2026 TrendCart
+</footer>
+
+</body>
+</html>
