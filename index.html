@@ -1,94 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TrendCart</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TrendCart</title>
 
-  <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-    <h1>🛍️ TrendCart</h1>
 
-    <input type="text" placeholder="Search products...">
+<h1>🛍️ TrendCart</h1>
 
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Shoes</a>
-        <a href="#">Electronics</a>
-        <a href="#">Fashion</a>
-        <a href="#">Deals</a>
-    </nav>
+<input type="text" id="search" placeholder="Search products...">
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Shoes</a>
+<a href="#">Electronics</a>
+<a href="#">Fashion</a>
+<a href="#">Deals</a>
+</nav>
+
 </header>
 
 <section class="hero">
-    <h2>Discover Amazing Products</h2>
-    <p>Best deals from trusted online stores.</p>
+<h2>Discover Amazing Products</h2>
+<p>Best deals from Flipkart, Amazon and other stores.</p>
 
-    <button>Shop Now</button>
+<button>Shop Now</button>
 </section>
 
-<section class=<div class="card">
-    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500" width="200">
-    <h2>Smart Watch</h2>
-    <p><b>₹1,999</b></p>
-    <p>⭐⭐⭐⭐⭐</p>
-    <button onclick="window.open('https://www.flipkart.com','_blank')">
-        Buy on Flipkart
-    </button>
-</div>
+<section class="products">
 
 <div class="card">
-    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500" width="200">
-    <h2>Wireless Headphones</h2>
-    <p><b>₹1,499</b></p>
-    <p>⭐⭐⭐⭐☆</p>
-    <button onclick="window.open('https://www.flipkart.com','_blank')">
-        Buy on Flipkart
-    </button>
-</div>
-
-<div class="card">
-    <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=500" width="200">
-    <h2>Fitness Band</h2>
-    <p><b>₹999</b></p>
-    <p>⭐⭐⭐⭐⭐</p>
-    <button onclick="window.open('https://www.flipkart.com','_blank')">
-        Buy on Flipkart
-    </button>
-</div>>
-
-<div class=<div class="card">
-    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500" width="200">
-
-    <h2>Nike Running Shoes</h2>
-
-    <p><b>₹2,499</b></p>
-
-    <p>⭐⭐⭐⭐⭐</p>
-
-    <button onclick="window.open('https://www.flipkart.com','_blank')">
-        Buy on Flipkart
-    </button>
-</div>>
-<h3>Running Shoes</h3>
-<p>⭐⭐⭐⭐☆</p>
-<button>Buy Now</button>
-</div>
-
-<div class="card">
-<h3>Smart Watch</h3>
+<img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500">
+<h3>Nike Running Shoes</h3>
+<p class="price"><del>₹3999</del> ₹2499</p>
 <p>⭐⭐⭐⭐⭐</p>
-<button>Buy Now</button>
+<button onclick="window.open('https://www.flipkart.com')">Buy</button>
 </div>
 
 <div class="card">
-<h3>Wireless Earbuds</h3>
+<img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500">
+<h3>Smart Watch</h3>
+<p class="price"><del>₹2999</del> ₹1999</p>
+<p>⭐⭐⭐⭐⭐</p>
+<button onclick="window.open('https://www.flipkart.com')">Buy</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500">
+<h3>Headphones</h3>
+<p class="price"><del>₹2499</del> ₹1499</p>
 <p>⭐⭐⭐⭐☆</p>
-<button>Buy Now</button>
+<button onclick="window.open('https://www.amazon.in')">Buy</button>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500">
+<h3>Smartphone</h3>
+<p class="price"><del>₹24999</del> ₹19999</p>
+<p>⭐⭐⭐⭐⭐</p>
+<button onclick="window.open('https://www.flipkart.com')">Buy</button>
 </div>
 
 </section>
